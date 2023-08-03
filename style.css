@@ -1,0 +1,34 @@
+body{
+    text-align: center;
+}
+
+.link{
+    text-align:left ;
+}
+h1{
+    display: inline;
+    margin: 5%;
+}
+img{
+    display: inline;
+}
+h1,h2{
+    color:goldenrod ;
+}
+h1:hover , h2:hover{
+    background-color: darkgoldenrod;
+    font-size: 30px;
+}
+.margen{
+    margin-left: 20%;
+    margin-bottom: 2rem;
+}
+.ulist{
+    text-align:left ;
+}
+#contacto{
+    background-color: grey;
+}
+#letters{
+    color: goldenrod;
+}

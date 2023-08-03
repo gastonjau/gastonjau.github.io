@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículum</title>
+</head>
+<!-- En la realización del proyecto ten en cuenta cumplir con los siguientes requerimientos:
+
+Debes crear todo el código CSS en una hoja de estilos externa
+El código CSS debe contener al menos 3 selectores que hagan referencia a clases
+El código CSS debe contener al menos 2 selectores que hagan referencia a elementos de la página a través de su id
+La página debe contener al menos una imagen -->
+
+
+
+<body>
+    <h1><b>Gaston Jaurena</b><img width="100px", src="cvgass.jpeg" alt="cv"></h1>
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis facere nisi itaque voluptatem, corrupti ad hic voluptates aperiam molestias blanditiis. Cumque molestiae officiis maxime voluptatibus soluta placeat nemo illum fugiat.
+    </p>
+    <hr>
+    <ul class="link">
+        <li><a href="#experiencia">Experiencia profesional</a></li>
+        <li><a href="#habilidades">Habilidades y conocimientos</a></li>
+        <li><a href="#educacion">Educación</a></li>
+        <li><a href="#perfiles">Perfiles sociales</a></li>
+        <li><a href="#contacto">Contactar</a></li>
+    </ul>
+
+    <h2 id="experiencia">Experiencia Profesional</h2>
+    <table>
+        <tr>
+          <th><b>Empresa / Organización </b> </th>
+          <th><b>Cargo</b></th>
+          <th><b>Localizacion</b></th>
+          <th><b>Desde-hasta</b></th>
+        </tr>
+        <tr>
+          <td>Esri Argentina</td>
+          <td>Encabezando el equipo de desarrolladores</td>
+          <td>Buenos Aires (Argentina)</td>
+          <td>Marzo 2014- Actualidad</td>
+        </tr>
+        <tr>
+            <td>Upplication</td>
+            <td>Programadora Frontend</td>
+            <td>Montevideo</td>
+            <td>Noviembre 2013 -Marzo 2015</td>
+          </tr>
+          <tr>
+            <td>Universidad de la Republica - Ingeniería</td>
+            <td>Profesora de Programación 1</td>
+            <td>Montevideo</td>
+            <td>Noviembre 2013 -Marzo 2015</td>
+          </tr>
+          <tr>
+            <td>Google Developers Group</td>
+            <td>Coordinadora Nacional</td>
+            <td>Buenos aires (Argentina)</td>
+            <td>Septiembre 2012 - Enero 2013</td>
+          </tr>
+          </table>
+
+    <hr>
+    <h2 id="habilidades">
+        Habilidades y conocimientos
+    </h2>
+    <ul>
+        <p>
+            <li><b>Desarrollo Web:</b>  HTML5, CSS3, JavaScript, Python-Django, LESS & SASS, PHP, SEO, Node.js, MySQL, AngularJS, jQuery, Bootstrap, Dojo, responsive design, WordPress, usabilidad, CoffeScript, etc.</li>
+            <li><b>Analítica web/Métricas:</b>  Google Analytics, Mixpanel, segment.io, etc.</li>
+            <li><b>Gestión:</b>  SCRUM, gestión de comunidades y organización de eventos, gestión de equipos, etc.</li>
+            <li><b>Emprendimiento:</b>  startups, Lean Startup, etc.</li>
+            <li><b>Aplicaciones móviles:</b>  Phonegap</li>
+            <li><b>Marketing</b>  email marketing, redes sociales, gamificación, nurture marketing, lead scoring, etc.</li>
+            <li><b>Sistemas de información geográfica (GIS):</b>  ArcGIS APIs.</li>
+        </p>
+    </ul>
+    <hr>
+    <h2 id="educacion">Educación</h2>
+    <table class="margen">
+        <tr>
+            <th>Título</th>
+            <th>Entidad</th>
+            <th>Promoción</th>
+        </tr>
+        <tr>
+            <td>Desarrollo web</td>
+            <td>Plan Ceibal (Jóvenes a programar)</td>
+            <td>2019</td>
+        </tr>
+        <tr>
+            <td>Curso: creación de empresas</td>
+            <td>Escuela de Negocios</td>
+            <td>2009</td>
+        </tr>
+    </table>
+    <hr>
+    <h2 id="perfiles"><strong>Perfiles sociales</strong></h2>
+    <p>También puedes encontrarme en:</p>
+    <ul class="ulist">
+        <li><a href="http://www.schoology.com">Mariana García</a></li>
+        <li><a href="http://www.github.com">Github</a></li>
+        <li><a href="http://www.twitter.com">Twitter</a></li>
+        <li><a href="http://www.linkedin.com">Linkedin</a></li>
+    </ul>
+    <hr>
+    <h1 id="contacto">Contactar</h1>
+    <form id="letters">
+        <label>Para: <input type="text" name="mail" placeholder="Email" required></label><br><br>
+        <label for="tematica">Temática:</label>
+        <select name="tematica" id="tematica">
+            <option value="consulta">Consulta</option>
+            <option value="propuesta">Propuesta</option>
+            <option value="reporte">Reporte</option>
+            <option value="otro">Otro</option>
+        </select><br><br>
+        <label>Asunto: <input type="text" name="asunto" placeholder="Asunto" required></label><br><br>
+        <label>Cuerpo: <input type="text" name="cuerpo" required></label>
+    </form>
+    
+</body>
+</html>
